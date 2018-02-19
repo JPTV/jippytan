@@ -3,5 +3,6 @@ const chain = new MessageParserChain();
 
 chain.addParser(require("./parsers/ping.js"));
 chain.addParser(require("./parsers/bondage-counter.js"));
+chain.addParser(require("./parsers/samson.js"));
 
 module.exports = chain;
