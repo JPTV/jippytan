@@ -8,5 +8,6 @@ chain.addParser(require("./parsers/cheerup.js"));
 chain.addParser(require("./parsers/gale.js"));
 chain.addParser(require("./parsers/ys.js"));
 chain.addParser(require("./parsers/basehead.js"));
+chain.addParser(require("./parsers/do-x-count.js"));
 
 module.exports = chain;
