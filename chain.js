@@ -6,5 +6,6 @@ chain.addParser(require("./parsers/bondage-counter.js"));
 chain.addParser(require("./parsers/samson.js"));
 chain.addParser(require("./parsers/cheerup.js"));
 chain.addParser(require("./parsers/gale.js"));
+chain.addParser(require("./parsers/ys.js"));
 
 module.exports = chain;
