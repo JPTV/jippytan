@@ -5,7 +5,8 @@
   "main": "bot.js",
   "author": "Rosiero",
   "dependencies": {
-    "discord.js": "^11.2.1"
+    "discord.js": "^11.2.1",
+    "sprintf-js": "^1.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
