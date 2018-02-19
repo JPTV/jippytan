@@ -1,5 +1,5 @@
 module.exports = function(message) {
-	if (message.content.toLowerCase().indexOf("ys") !== -1) {
+	if (message.content.match(/\bys\b/i)) {
 		return "Fight giant munstahs!";
 	}
 	return null;

@@ -1,5 +1,5 @@
 module.exports = function(message) {
-	if (message.content.toLowerCase().indexOf("gale") !== -1) {
+	if (message.content.match(/\bgale\b/i)) {
 		return "We spend our whole life trying to stop death. Eating, inventing, loving, praying, "+
 		"fighting, killing. But what do we really know about death? Just that nobody comes back. "+
 		"Then there comes a point - a moment - in life when your mind outlives its desires, its "+

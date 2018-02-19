@@ -1,5 +1,5 @@
 module.exports = function(message) {
-	if (message.content.startsWith("Jippy-tan, you a basehead")) {
+	if (message.content.toLowerCase().startsWith("jippy-tan, you a basehead")) {
 		return "Nuh-uh!";
 	}
 	return null;
